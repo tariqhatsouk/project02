@@ -1,0 +1,73 @@
+
+/* General Page Style */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222;
+}
+
+/* Navigation Bar */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #1e293b;
+    color: white;
+}
+
+/* Navigation Links */
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content */
+
+main {
+    padding: 30px;
+}
+
+/* Cards Container */
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual Cards */
+
+.card {
+    flex: 1 1 220px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Card Headings */
+
+.card h3 {
+    color: #2563eb;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e293b;
+    color: white;
+}

@@ -1,0 +1,81 @@
+
+/* Universal Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* General Page Styling */
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Comparison Section */
+
+.comparison {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Example Panels */
+
+.demo-panel {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* Common Box Properties */
+
+.box {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Content Box */
+
+.content-box {
+    box-sizing: content-box;
+    background-color: lightblue;
+    border-color: blue;
+}
+
+/* Border Box */
+
+.border-box {
+    box-sizing: border-box;
+    background-color: lightgreen;
+    border-color: green;
+}
+
+/* Explanation Section */
+
+.explanation {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}

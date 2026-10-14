@@ -1,0 +1,103 @@
+
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222;
+}
+
+/* Fixed Navigation Bar */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    padding: 15px 30px;
+    background-color: #1e293b;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 120px 25px 50px;
+}
+
+/* Relative Card */
+
+.card {
+    position: relative;
+
+    max-width: 420px;
+    margin-top: 30px;
+    padding: 55px 25px 25px;
+
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Absolute Notification Badge */
+
+.badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 1;
+
+    padding: 8px 14px;
+    background-color: #ef4444;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Sections for Scrolling */
+
+.content-section {
+    min-height: 75vh;
+    padding-top: 80px;
+}
+
+/* Fixed Back to Top Button */
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1001;
+
+    padding: 12px 20px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
